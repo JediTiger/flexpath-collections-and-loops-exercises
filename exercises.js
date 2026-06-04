@@ -20,10 +20,12 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_01();
+  exercise_08();
   // Modify the line of code ABOVE to run a different exercise
 }
-
+function ltc(value) {
+  console.log(value);
+}
 function exercise_01() {
   /* 
    
@@ -39,7 +41,8 @@ function exercise_01() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let arr1 = [ 8, 25, 84, 23, 164 ];
+  ltc(arr1);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -57,7 +60,9 @@ function exercise_02() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let arr1 = [ 8, 25, 84, 23, 164 ];
+  ltc(arr1[0]);
+  ltc(arr1[4]);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -76,7 +81,14 @@ function exercise_03() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let anArray = [];
+  anArray.push(5);
+  anArray.push(123);
+  anArray.push(432);
+  anArray.push(15);
+  anArray.push(237);
+  ltc(anArray);
+  
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -95,7 +107,9 @@ function exercise_04() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let strArr = ["str1","str2","str3","str4","str5"];
+  strArr.unshift(513);
+  ltc(strArr);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -115,7 +129,9 @@ function exercise_05() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let strArr = ["str1","str2","str3","str4","str5"];
+  strArr.pop();
+  ltc(strArr);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -134,7 +150,9 @@ function exercise_06() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let arr1 = [ 8, 25, 84, 23, 164 ];
+  ltc(arr1.shift());
+  ltc(arr1);
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -152,7 +170,12 @@ function exercise_07() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let arr1 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+  if (arr1.includes(7)) {
+    ltc("Item is in the array!");
+  } else {
+    ltc("Item not present in the array");
+  }
 
   // CODE IN THE OPEN LINES ABOVE
 }
@@ -177,7 +200,10 @@ function exercise_08() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let arr1 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+  let arrPos = arr1.indexOf(4);
+  ltc(arr1[arrPos-1]);
+  ltc(arr1[arrPos+1]);
 
   // CODE IN THE OPEN LINES ABOVE
 }
