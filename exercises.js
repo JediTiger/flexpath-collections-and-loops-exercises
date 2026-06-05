@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_09();
+  exercise_11();
   // Modify the line of code ABOVE to run a different exercise
 }
 function ltc(value) {
@@ -251,7 +251,13 @@ function exercise_10() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
+  let someMap = new Map();
+  someMap.set('name','Bob');
+  someMap.set('age',37);
+  someMap.set('job','Polisher')
+  ltc(someMap);
+  let diffMap = { name:"Jake", age: 39, job:"Punisher" }
+  ltc(diffMap);
 
   // CODE IN THE OPEN LINES ABOVE
 }
