@@ -280,16 +280,8 @@ function exercise_11() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  /*
-   Answer info:
-   This is how you instantiate a new map with values
-   Notice, you pass it an array of multiple sub-arrays, each containing two
-   elements each:
-   - The first element the name of the key
-   - The second element, the value of that key
-  */
-
-  const placeholder = "Delete this line and code in this space";
+  let diffMap = { name: "Jake", age: 39, job: "Punisher" }
+  ltc(`This person's name is ${diffMap.name}`);
 
   // CODE IN THE OPEN LINES ABOVE
 }
