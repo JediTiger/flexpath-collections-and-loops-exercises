@@ -20,7 +20,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   */
 
   // Modify the line of code BELOW to run a different exercise
-  exercise_08();
+  exercise_09();
   // Modify the line of code ABOVE to run a different exercise
 }
 function ltc(value) {
@@ -222,8 +222,9 @@ function exercise_09() {
   */
   // CODE IN THE OPEN LINES BELOW
 
-  const placeholder = "Delete this line and code in this space";
-
+  let arr1 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+  arr1.splice(1,1);
+  ltc(arr1);
   // CODE IN THE OPEN LINES ABOVE
 }
 
