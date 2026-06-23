@@ -131,7 +131,7 @@ function exercise_05() {
 
   let strArr = ["str1","str2","str3","str4","str5"];
   ltc(strArr);
-strArr.pop();
+  strArr.pop();
   ltc(strArr);
 
   // CODE IN THE OPEN LINES ABOVE
@@ -303,7 +303,7 @@ function exercise_12() {
   
   */
   // CODE IN THE OPEN LINES BELOW
-
+  // TODO: LEFT OFF HERE
   const placeholder = "Delete this line and code in this space";
 
   // CODE IN THE OPEN LINES ABOVE
