@@ -130,7 +130,8 @@ function exercise_05() {
   // CODE IN THE OPEN LINES BELOW
 
   let strArr = ["str1","str2","str3","str4","str5"];
-  strArr.pop();
+  ltc(strArr);
+strArr.pop();
   ltc(strArr);
 
   // CODE IN THE OPEN LINES ABOVE
